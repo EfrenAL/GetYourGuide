@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_sort"
+        android:orderInCategory="100"
+        android:title="@string/sorting"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_sort_newest_date"
+                android:title="@string/new_date" />
+            <item
+                android:id="@+id/action_sort_oldest_date"
+                android:title="@string/oldest_date" />
+            <item
+                android:id="@+id/action_sort_highest_rating"
+                android:title="@string/high_rating" />
+            <item
+                android:id="@+id/action_sort_lowest_rating"
+                android:title="@string/lowest_rating" />
+        </menu>
+
+    </item>
+</menu>

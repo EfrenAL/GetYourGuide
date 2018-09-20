@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GetYourGuide</string>
+    <string name="sorting">Sorting options</string>
+    <string name="error_insert_review">Error while inserting new review, please try again</string>
+    <string name="new_date">Newest date</string>
+    <string name="oldest_date">Oldest date</string>
+    <string name="high_rating">Highest rating</string>
+    <string name="lowest_rating">Lowest rating</string>
+    <string name="rating_text_header">We hope you enjoyed the experience</string>
+    <string name="error_loading_data">Error while loading data. Please try again</string>
+</resources>
